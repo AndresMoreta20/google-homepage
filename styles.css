@@ -15,6 +15,7 @@ a:hover{text-decoration: underline;}
 #head-links-container {
     display: flex;
     justify-content: flex-end;
+    min-width: 400px;
 }
 #header-links {
     margin-right: 20px;
@@ -64,32 +65,54 @@ li{
 #search-bar-container {
     display: flex;
     justify-content: center;
-}
-#search-icon {
-    color: darkgray;
-    position: absolute;
-    margin-right: 540px;
-    margin-top: 40px;
-    font-size: 25px;    
-}
-#mic-icon {
-    color: darkgray;
-    position: absolute;
-    margin-right:-540px;
-    margin-top: 40px;
-    font-size: 25px;    
+    min-width: 400px;
 }
 
+#search-icon {
+    margin-top: 30px;
+    color: darkgray;
+    position: relative;
+    font-size: 25px;
+    height: 32px;
+    border-top: 20px;  
+    border: 0.5px solid rgba(224, 219, 219, 0.815);  
+    border-right: none;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#search-icon:hover {box-shadow: 1px 1px 1px 1px rgb(209, 198, 198); }
+#mic-icon {
+    margin-top: 30px;
+    color: darkgray;
+    position: relative;
+    font-size: 25px;
+    height: 32px;
+    border-top: 20px;  
+    border: 0.5px solid rgba(224, 219, 219, 0.815);  
+    border-left: none;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+#mic-icon:hover {box-shadow: 1px 1px 1px 1px rgb(209, 198, 198); }
+
 #search-bar:hover {
-    box-shadow: 2px 2px rgb(170, 164, 164); 
+    box-shadow: 1px 1px 1px 1px rgb(209, 198, 198); 
 
 }
 #search-bar {
-    width: 580px;
+    border: none;
+    width: 500px;
     height: 40px;
-    margin: 30px;
-    border-radius: 25px;
-    border-color: unset;
+    margin-top: 30px;
+    border: 0.5px solid rgba(224, 219, 219, 0.815);
+    border-right: none;
+    border-left: none;
+    margin-bottom: 40px;
 }
 #buttons-container {
     display: flex;
