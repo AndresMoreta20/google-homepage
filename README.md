@@ -1,8 +1,6 @@
 # google-homepage
-first-the-odin-project
 
-This is a copy of the google homepage made with basic HTML and CSS
+This project is a recreation of the Google homepage, made with basic HTML and CSS.
 
-
-
-
+# Live at: 
+https://andresmoreta20.github.io/google-homepage/
